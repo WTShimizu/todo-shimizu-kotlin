@@ -4,9 +4,9 @@
 
 ## Note
 
-Android Studio (Java)
-SQLIite 
-Android 5.0以上対応
+Android Studio (Kotlin)  
+SQLIite  
+Android 5.0以上対応  
 
 ## Authors
 
