@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/todo</item>
+        <item name="android:colorAccent">@color/todo</item>
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+
+        <item name="buttonBarNeutralButtonStyle">@style/buttonBarButtonStyle.Neutral</item>
+        <item name="buttonBarNegativeButtonStyle">@style/buttonBarButtonStyle.Negative</item>
+        <item name="buttonBarPositiveButtonStyle">@style/buttonBarButtonStyle.Positive</item>
+
+        <item name="colorOnPrimary">@color/todo</item>
+    </style>
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:headerBackground">@color/white</item>
+    </style>
+    <style name="buttonBarButtonStyle" parent="Widget.AppCompat.Button.Colored">
+    </style>
+
+    <style name="buttonBarButtonStyle.Neutral">
+    </style>
+    <style name="buttonBarButtonStyle.Negative">
+        <item name="backgroundTint">@color/todo</item>
+    </style>
+
+    <style name="buttonBarButtonStyle.Positive">
+        <item name="backgroundTint">@color/todo</item>
+    </style>
+</resources>
